@@ -8,7 +8,7 @@ let travalexp = document.querySelector('.travalExperienc');
 let contrpre = document.querySelector('.contprelast');
 let footer = document.querySelector('.footer');
 
-let nottodel = [header];
+let nottodel = [header,underheader,miniplans,presentvideos,travalcategories,travalexp,contrpre,footer];
 let arr = [header,underheader,miniplans,presentvideos,travalcategories,travalexp,contrpre,footer];
 let ler = [];
 let key = 'notDEL';
