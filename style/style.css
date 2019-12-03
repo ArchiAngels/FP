@@ -145,16 +145,24 @@ body{
     padding: 0;
     /* border:1px solid red; */
 }
+@media(min-width:801px){
+    .img2{
+        position:absolute;
+        margin-left:650px;
+        margin-top:-800px;
+    
+    }
+}
+@media(max-width:800px){
+    .img2{
+        display:none;
+    
+    }
+}
 .img1{
     position:absolute;
     margin-left:-225px;
     margin-top:-200px;
-}
-.img2{
-    position:absolute;
-    margin-left:650px;
-    margin-top:-800px;
-
 }
 @media(max-width:1500px){
     .header{
