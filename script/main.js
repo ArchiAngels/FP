@@ -8,7 +8,7 @@ let travalexp = document.querySelector('.travalExperienc');
 let contrpre = document.querySelector('.contprelast');
 let footer = document.querySelector('.footer');
 
-let nottodel = [footer,contrpre,travalexp,travalcategories,presentvideos,miniplans,underheader,header];
+let nottodel = [header];
 let arr = [header,underheader,miniplans,presentvideos,travalcategories,travalexp,contrpre,footer];
 let ler = [];
 let key = 'notDEL';
@@ -49,6 +49,7 @@ function burgerstr(){
         newdiv.style.border = '1px solid black';
         newdiv.style.marginTop = 10 + 'px';
         newdiv.style.right = '0';
+        newdiv.style.position = 'absolute';
         newdiv.classList.add('burgerlist');
         newdiv.style.cursor = 'pointer';
         newdiv.addEventListener('click',spawnMenu);
