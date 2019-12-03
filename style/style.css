@@ -2,9 +2,9 @@ body{
     margin: 0;
     padding: 0;
     background-color: white;
-    margin-top:3%;
+    /* margin-top:3%;
     margin-left:10%;
-    margin-right:10%;
+    margin-right:10%; */
     /* border:1px solid red; */
     font-family: 'Nunito Sans', sans-serif;
     overflow-x:hidden;
@@ -30,6 +30,12 @@ body{
     margin-bottom:125px;
     width:100%;
     /* border:1px solid black; */
+}
+@media(max-width:850px){
+    .header{
+        justify-content: space-around;
+        /* border:1px solid black; */
+    }
 }
 .logo{
     min-height:71px;
@@ -145,7 +151,7 @@ body{
     padding: 0;
     /* border:1px solid red; */
 }
-@media(min-width:801px){
+@media(min-width:951px){
     .img2{
         position:absolute;
         margin-left:650px;
@@ -153,7 +159,7 @@ body{
     
     }
 }
-@media(max-width:800px){
+@media(max-width:950px){
     .img2{
         display:none;
     
@@ -178,7 +184,7 @@ body{
 .miniPlans{
     margin-bottom:50px;
     font-family: 'Nunito Sans', sans-serif;
-    margin-top:450px;
+    /* margin-top:450px; */
     align-items:center;
     /* border:1px solid black; */
     display:flex;
@@ -553,7 +559,7 @@ body{
         overflow-y:hidden;
         flex-direction:row;
         overflow-x:scroll;
-        height:400px;
+        height:250px;
         width:70vw;
     }
     .needWrap div{

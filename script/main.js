@@ -48,7 +48,6 @@ function burgerstr(){
         newdiv.style.height = 50 + 'px';
         newdiv.style.border = '1px solid black';
         newdiv.style.marginTop = 10 + 'px';
-        newdiv.style.position = 'absolute';
         newdiv.style.right = '0';
         newdiv.classList.add('burgerlist');
         newdiv.style.cursor = 'pointer';
